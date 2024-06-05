@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วิธีการล้างมือ</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <div class="container">
+        <h1>วิธีการล้างมือที่ถูกต้อง</h1>
+        <div id="content">
+            <!-- หน้าที่ 1 -->
+            <div class="page" id="page1">
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1583947582886-f8b4c336878e" alt="ขั้นตอนที่ 1">
+                    <p>ขั้นตอนที่ 1: ล้างมือด้วยน้ำสะอาด</p>
+                </div>
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1592152475931-e062ddc1e554" alt="ขั้นตอนที่ 2">
+                    <p>ขั้นตอนที่ 2: ทาสบู่บนมือ</p>
+                </div>
+            </div>
+            <!-- หน้าที่ 2 -->
+            <div class="page" id="page2" style="display:none;">
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1584510479605-0e15ef58b8d0" alt="ขั้นตอนที่ 3">
+                    <p>ขั้นตอนที่ 3: ถูฝ่ามือเข้าด้วยกัน</p>
+                </div>
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1584510479205-d118cccb9b4c" alt="ขั้นตอนที่ 4">
+                    <p>ขั้นตอนที่ 4: ถูหลังมือและซอกนิ้ว</p>
+                </div>
+            </div>
+            <!-- หน้าที่ 3 -->
+            <div class="page" id="page3" style="display:none;">
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1584510401998-6c6f2baf7b61" alt="ขั้นตอนที่ 5">
+                    <p>ขั้นตอนที่ 5: ถูนิ้วและเล็บ</p>
+                </div>
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1584510402429-2410a9c63756" alt="ขั้นตอนที่ 6">
+                    <p>ขั้นตอนที่ 6: ถูนิ้วหัวแม่มือ</p>
+                </div>
+            </div>
+            <!-- หน้าที่ 4 -->
+            <div class="page" id="page4" style="display:none;">
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1584510402080-788c801e7126" alt="ขั้นตอนที่ 7">
+                    <p>ขั้นตอนที่ 7: ล้างมือด้วยน้ำสะอาดและเช็ดมือให้แห้ง</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="prevPage()">ก่อนหน้า</button>
+            <button onclick="nextPage()">ถัดไป</button>
+            <button onclick="goHome()">กลับหน้าแรก</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
